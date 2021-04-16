@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.main-parent .parent {
+  background-image: url("../imgs/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  background-color: #000000;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 2px 189px 20px -90px rgba(0, 0, 0, 0.25); }
+  .main-parent .parent img {
+    position: absolute;
+    top: 135px;
+    right: 160px;
+    width: 50px;
+    height: 50px; }
+  .main-parent .parent .head {
+    color: red;
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    font-family: 'Permanent Marker', cursive; }
+  .main-parent .parent .s-alpha {
+    position: relative; }
+    .main-parent .parent .s-alpha .main-stk {
+      width: 95px;
+      height: 105px;
+      position: absolute;
+      top: 50px;
+      left: -50px;
+      display: inline-block;
+      background-color: transparent;
+      border: 30px solid;
+      border-color: transparent transparent red red;
+      border-radius: 50%;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg); }
+    .main-parent .parent .s-alpha .bottom-qrt-circle {
+      width: 95px;
+      height: 105px;
+      position: absolute;
+      top: 108px;
+      left: -53px;
+      display: inline-block;
+      background-color: transparent;
+      border: 30px solid;
+      border-color: red red red transparent;
+      border-radius: 50%;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg); }
+    .main-parent .parent .s-alpha .hz-top-stk {
+      width: 250px;
+      height: 30px;
+      position: absolute;
+      top: 52.5px;
+      left: 1px;
+      display: inline-block;
+      background-color: red; }
+    .main-parent .parent .s-alpha .s-p-compination {
+      width: 95px;
+      height: 105px;
+      position: absolute;
+      top: 50px;
+      left: 205px;
+      display: inline-block;
+      background-color: transparent;
+      border: 30px solid;
+      border-color: red red transparent transparent;
+      border-radius: 50%;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg); }
+  .main-parent .parent .p-alpha {
+    position: relative; }
+    .main-parent .parent .p-alpha .p-stk {
+      background-color: red;
+      width: 30px;
+      height: 100px;
+      position: absolute;
+      top: 100px;
+      left: -25px;
+      display: inline-block;
+      border-radius: 5px 15px;
+      -webkit-border-radius: 5px 15px;
+      -moz-border-radius: 5px 15px;
+      -ms-border-radius: 5px 15px;
+      -o-border-radius: 5px 15px; }
+    .main-parent .parent .p-alpha .dot {
+      position: absolute;
+      background-color: red;
+      width: 30px;
+      height: 30px;
+      border-radius: 50% 50% 30% 30%;
+      top: 205px;
+      left: -25px; }
+  .main-parent .parent .u-alpha {
+    position: relative; }
+    .main-parent .parent .u-alpha .left-stk {
+      position: absolute;
+      width: 30px;
+      height: 70px;
+      background-color: red;
+      top: 95px;
+      left: -70px;
+      border-top-right-radius: 40%; }
+    .main-parent .parent .u-alpha .right-stk {
+      position: absolute;
+      width: 30px;
+      height: 70px;
+      background-color: red;
+      top: 92px;
+      left: -5px;
+      border-top-right-radius: 40%; }
+  .main-parent .parent .bottom-half-circule {
+    width: 90px;
+    height: 95px;
+    position: absolute;
+    top: 120px;
+    left: -65px;
+    display: inline-block;
+    background-color: transparent;
+    border: 30px solid;
+    border-color: transparent red red transparent;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg); }
